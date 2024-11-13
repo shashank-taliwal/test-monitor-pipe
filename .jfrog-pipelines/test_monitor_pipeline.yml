@@ -1,10 +1,10 @@
-resources:
-  - name: test_monitor_uber_pipelines
-    type: CronTrigger
-    configuration:
-      interval: "*/1 * * * *"
-      branches:
-        include: "master"
+# resources:
+#   - name: test_monitor_uber_pipelines
+#     type: CronTrigger
+#     configuration:
+#       interval: "*/1 * * * *"
+#       branches:
+#         include: "master"
 
 pipelines:
   - name: test_monitor
